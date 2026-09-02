@@ -1,0 +1,62 @@
+{
+  "category": "한국 전통 구도",
+  "category_en": "Korean Traditional Composition",
+  "slug": "07-korean-tradition",
+  "note": "원본 도감의 중국 전통 절을 버리고 한국 회화·공예·건축의 구도로 새로 썼다. 이 도감의 오리지널.",
+  "subcategories": [
+    {
+      "name": "시점과 공간",
+      "name_en": "Viewpoint & Space",
+      "slug": "viewpoint-space",
+      "items": [
+        {"id": 315, "ko": "역원근 구도", "en": "Reverse Perspective", "desc": "멀어질수록 넓어진다. 책가도의 선반이 뒤로 갈수록 벌어지는 이유. 서양 원근과 정반대라 한 화면에서 곧바로 구분된다."},
+        {"id": 316, "ko": "다시점 구도", "en": "Multiple Viewpoints", "desc": "한 화면에 여러 시점이 공존한다. 상은 위에서, 그릇은 정면에서 본다. 각 사물을 가장 잘 알아볼 각도로 그린다."},
+        {"id": 317, "ko": "부감 조감 구도", "en": "Elevated Panorama", "desc": "높은 곳에서 내려다보되 소실점은 두지 않는다. 동궐도처럼 궁궐 전역을 한 장에 펼친다."},
+        {"id": 318, "ko": "평행 사선 구도", "en": "Parallel Oblique", "desc": "깊이 방향 선이 모이지 않고 나란히 간다. 건물과 기물의 실제 비례가 왜곡 없이 남는다."},
+        {"id": 319, "ko": "유람 구도", "en": "Wandering View", "desc": "시선이 한 자리에 고정되지 않고 화면을 따라 이동한다. 두루마리 그림을 펼치며 보는 방식."},
+        {"id": 320, "ko": "층단 구도", "en": "Stacked Registers", "desc": "화면을 위아래 층으로 나눠 각 층에 다른 장면을 담는다. 감모여재도와 의궤 도설의 방식."}
+      ]
+    },
+    {
+      "name": "격자와 진열",
+      "name_en": "Lattice & Display",
+      "slug": "lattice-display",
+      "items": [
+        {"id": 321, "ko": "책가도 격자", "en": "Chaekgado Shelf", "desc": "서가를 칸칸이 나누고 각 칸에 기물을 하나씩 앉힌다. 칸 크기를 불균등하게 하고 일부를 병합해야 리듬이 산다."},
+        {"id": 322, "ko": "기물 진열 구도", "en": "Object Display", "desc": "물건을 나란히 늘어놓아 그 자체로 화면을 만든다. 개별 형태보다 배열의 리듬이 주제가 된다."},
+        {"id": 323, "ko": "병풍 연폭 구도", "en": "Folding Screen Panels", "desc": "여러 폭이 이어져 하나의 장면을 이룬다. 폭 경계에 주요 소재를 걸치지 않는 것이 원칙."},
+        {"id": 324, "ko": "문자도 구도", "en": "Munjado Letterform", "desc": "글자 한 자를 크게 세우고 그 획 안팎에 그림을 넣는다. 글자가 곧 구조이자 그림."},
+        {"id": 325, "ko": "단청 머리초", "en": "Dancheong Band", "desc": "부재 끝에서 안쪽으로 문양 띠가 반복된다. 좌우 대칭에 중심 문양을 두는 정형 구조."}
+      ]
+    },
+    {
+      "name": "여백과 운필",
+      "name_en": "Void & Brush",
+      "slug": "void-brush",
+      "items": [
+        {"id": 326, "ko": "여백 구도", "en": "Empty Space", "desc": "비운 자리가 그린 자리만큼 일한다. 채우지 않은 곳이 하늘이 되고 물이 되고 거리가 된다."},
+        {"id": 327, "ko": "허실 구도", "en": "Void and Substance", "desc": "짙게 그린 곳과 비운 곳을 짝지어 놓는다. 둘의 관계가 화면의 호흡을 만든다."},
+        {"id": 328, "ko": "소밀 구도", "en": "Sparse and Dense", "desc": "빽빽한 곳과 성긴 곳을 나눈다. 밀도의 차이만으로 시선의 순서가 정해진다."},
+        {"id": 329, "ko": "주빈 구도", "en": "Host and Guest", "desc": "주가 되는 것과 곁드는 것을 분명히 나눈다. 곁이 주를 넘어서면 화면이 흩어진다."},
+        {"id": 330, "ko": "개합 구도", "en": "Opening and Closing", "desc": "화면을 열었다 닫는다. 트인 곳으로 시선을 들이고 막힌 곳에서 멈춰 세운다."},
+        {"id": 331, "ko": "기승전결 구도", "en": "Four-Part Progression", "desc": "일으키고 이어받고 꺾고 맺는다. 두루마리와 병풍처럼 순서대로 보는 화면의 뼈대."},
+        {"id": 332, "ko": "장로 구도", "en": "Hidden and Revealed", "desc": "다 보여주지 않고 일부를 가린다. 가린 만큼 관객이 상상으로 채운다."},
+        {"id": 333, "ko": "의정 구도", "en": "Tilt and Balance", "desc": "일부러 기울여 놓고 다른 요소로 받친다. 반듯함보다 살아 있는 균형."},
+        {"id": 334, "ko": "일각 구도", "en": "Corner Composition", "desc": "화면 한 귀퉁이에만 그리고 나머지를 비운다. 작은 소재로 넓은 공간을 만든다."}
+      ]
+    },
+    {
+      "name": "상징과 배열",
+      "name_en": "Symbol & Arrangement",
+      "slug": "symbol-arrangement",
+      "items": [
+        {"id": 351, "ko": "십장생 배열", "en": "Ten Longevity Symbols", "desc": "해·산·물·돌·소나무·구름·불로초·거북·학·사슴을 한 화면에 벌인다. 각각 제자리가 정해져 있어 배치가 곧 규범."},
+        {"id": 352, "ko": "사군자 구도", "en": "Four Gentlemen", "desc": "매·난·국·죽을 각 폭에 하나씩 둔다. 여백을 크게 남기고 획의 방향으로 성격을 드러낸다."},
+        {"id": 353, "ko": "까치호랑이 구도", "en": "Tiger and Magpie", "desc": "큰 짐승을 중앙에 두고 작은 새를 위쪽에 앉힌다. 위아래 대비로 해학이 생긴다."},
+        {"id": 354, "ko": "모란 화훼 구도", "en": "Peony Arrangement", "desc": "꽃송이를 삼각으로 배치하고 잎으로 사이를 메운다. 좌우를 일부러 어긋나게 해야 답답하지 않다."},
+        {"id": 355, "ko": "산수 삼단 구도", "en": "Three-Tier Landscape", "desc": "앞에 바위와 나무, 가운데 물과 길, 뒤에 산. 세 층이 겹쳐 깊이를 만든다."},
+        {"id": 356, "ko": "일수이석 구도", "en": "One Tree, Two Rocks", "desc": "나무 하나에 돌 둘을 짝짓는다. 홀수와 짝수를 엇갈려 놓아 정형을 피한다."}
+      ]
+    }
+  ]
+}

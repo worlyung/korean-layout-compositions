@@ -1,0 +1,88 @@
+{
+  "category": "시각 원칙",
+  "category_en": "Visual Principles",
+  "slug": "02-visual-principles",
+  "note": "요소를 어떻게 묶고 나누고 강조할 것인가. 구도가 자리라면 원칙은 관계다.",
+  "subcategories": [
+    {
+      "name": "균형 · 동세 · 초점",
+      "name_en": "Balance, Motion & Focus",
+      "slug": "balance-motion-focus",
+      "items": [
+        {"id": 87, "ko": "방사 균형", "en": "Radial Balance", "desc": "중심을 기준으로 사방이 고르게 퍼진다. 어느 쪽에서 봐도 무게가 같아 시선이 가운데 머문다."},
+        {"id": 88, "ko": "결정형 균형", "en": "Crystallographic Balance", "desc": "화면 전체에 같은 무게가 고르게 깔린다. 중심이 없어 어디서 봐도 균등한 패턴이 된다."},
+        {"id": 89, "ko": "정적 구성", "en": "Static Composition", "desc": "수평·수직·대칭으로 움직임을 없앤다. 안정과 격식, 멈춘 시간의 인상."},
+        {"id": 90, "ko": "동적 구성", "en": "Dynamic Composition", "desc": "사선·비대칭·크기 차로 움직임을 만든다. 화면 안에서 힘의 방향이 읽힌다."},
+        {"id": 91, "ko": "열린 구성", "en": "Open Composition", "desc": "요소가 화면 밖으로 이어진다. 프레임은 잘라낸 한 조각일 뿐이라는 인상."},
+        {"id": 92, "ko": "닫힌 구성", "en": "Closed Composition", "desc": "모든 요소가 프레임 안에서 끝난다. 자족적이고 완결된 세계가 된다."},
+        {"id": 93, "ko": "단일 초점", "en": "Single Focus", "desc": "시선이 갈 곳이 하나다. 메시지가 명확해지고 나머지는 배경으로 물러난다."},
+        {"id": 94, "ko": "복수 초점", "en": "Multiple Focus", "desc": "초점이 여럿이라 시선이 옮겨 다닌다. 읽는 시간이 길어지고 서사가 생긴다."}
+      ]
+    },
+    {
+      "name": "위계 · 비례 · 대비",
+      "name_en": "Hierarchy, Proportion & Contrast",
+      "slug": "hierarchy-contrast",
+      "items": [
+        {"id": 95,  "ko": "시각 위계", "en": "Visual Hierarchy", "desc": "무엇을 먼저 볼지 크기·굵기·색으로 순서를 정한다. 편집 디자인의 뼈대."},
+        {"id": 96,  "ko": "주종 관계", "en": "Dominance & Subordination", "desc": "하나를 주인공으로 세우고 나머지를 받치게 한다. 다 강조하면 아무것도 강조되지 않는다."},
+        {"id": 97,  "ko": "균형", "en": "Balance", "desc": "시각적 무게를 화면 안에서 맞춘다. 대칭이든 비대칭이든 결과는 안정이다."},
+        {"id": 98,  "ko": "비례", "en": "Proportion", "desc": "요소끼리의 크기 관계. 반복되는 비율이 화면 전체에 질서를 준다."},
+        {"id": 99,  "ko": "크기 대비", "en": "Scale Contrast", "desc": "큰 것과 작은 것을 나란히 둔다. 차이가 클수록 둘 다 더 뚜렷해진다."},
+        {"id": 100, "ko": "명암 대비", "en": "Value Contrast", "desc": "밝고 어두움의 차이. 색을 빼도 형태가 읽히는지가 판정 기준."},
+        {"id": 101, "ko": "색 대비", "en": "Color Contrast", "desc": "색상·채도·온도의 차이로 요소를 분리한다. 한 곳에만 쓰면 그곳이 초점이 된다."},
+        {"id": 102, "ko": "형태 대비", "en": "Shape Contrast", "desc": "각진 것과 둥근 것을 섞는다. 형태가 다르면 같은 크기라도 구분된다."},
+        {"id": 103, "ko": "질감 대비", "en": "Texture Contrast", "desc": "거칠고 매끈함의 차이. 인쇄물에서 촉각적 인상을 만드는 축."},
+        {"id": 104, "ko": "동정 대비", "en": "Motion & Stillness", "desc": "움직이는 것 옆에 멈춘 것을 둔다. 둘 다 성격이 선명해진다."},
+        {"id": 105, "ko": "병치", "en": "Juxtaposition", "desc": "성격이 다른 둘을 붙여 놓는다. 관객이 스스로 관계를 읽게 만든다."},
+        {"id": 106, "ko": "고립", "en": "Isolation", "desc": "하나만 떼어 놓는다. 주변이 비어 있을수록 그것이 강해진다."}
+      ]
+    },
+    {
+      "name": "반복 · 패턴 · 리듬",
+      "name_en": "Repetition, Pattern & Rhythm",
+      "slug": "repetition-rhythm",
+      "items": [
+        {"id": 107, "ko": "반복", "en": "Repetition", "desc": "같은 요소를 되풀이한다. 통일감이 생기고 하나가 어긋날 때 그것이 초점이 된다."},
+        {"id": 108, "ko": "패턴 조직", "en": "Pattern", "desc": "반복에 규칙이 붙는다. 개별 요소가 사라지고 전체가 하나의 면이 된다."},
+        {"id": 109, "ko": "리듬 조직", "en": "Rhythm", "desc": "요소와 간격이 규칙적으로 오간다. 시선이 일정한 속도로 움직인다."},
+        {"id": 110, "ko": "점층 조직", "en": "Gradation", "desc": "크기·색·간격이 한 방향으로 서서히 변한다. 흐름과 깊이가 동시에 생긴다."},
+        {"id": 111, "ko": "교차 리듬", "en": "Alternating Rhythm", "desc": "두 요소가 번갈아 나온다. 단순 반복보다 화면이 살아 있다."},
+        {"id": 112, "ko": "점진 리듬", "en": "Progressive Rhythm", "desc": "반복하면서 조금씩 커지거나 작아진다. 방향과 가속이 읽힌다."},
+        {"id": 113, "ko": "흐름 리듬", "en": "Flowing Rhythm", "desc": "곡선을 따라 요소가 이어진다. 자연물의 리듬에 가깝다."},
+        {"id": 114, "ko": "무작위 리듬", "en": "Random Rhythm", "desc": "규칙 없이 흩어지되 밀도는 통제한다. 자연스러움과 산만함은 종이 한 장 차이."}
+      ]
+    },
+    {
+      "name": "게슈탈트와 묶기",
+      "name_en": "Gestalt & Grouping",
+      "slug": "gestalt-grouping",
+      "items": [
+        {"id": 115, "ko": "유사성", "en": "Similarity", "desc": "닮은 것끼리 한 덩어리로 본다. 색·형태·크기가 같으면 떨어져 있어도 묶인다."},
+        {"id": 116, "ko": "근접성", "en": "Proximity", "desc": "가까이 있으면 한 무리로 본다. 여백만으로 정보를 나눌 수 있는 이유."},
+        {"id": 117, "ko": "연속성", "en": "Continuity", "desc": "선이 이어지는 방향으로 시선이 계속 간다. 끊겨 있어도 이어서 읽는다."},
+        {"id": 118, "ko": "폐쇄성", "en": "Closure", "desc": "빠진 부분을 스스로 메워 완결된 형태로 본다. 다 그리지 않아도 읽힌다."},
+        {"id": 119, "ko": "도형과 바탕", "en": "Figure & Ground", "desc": "무엇이 형태고 무엇이 배경인가. 둘이 뒤집히면 다른 그림이 보인다."},
+        {"id": 120, "ko": "공동 영역", "en": "Common Region", "desc": "같은 테두리나 면 안에 있으면 한 묶음으로 본다. 카드와 박스의 원리."},
+        {"id": 121, "ko": "공동 운명", "en": "Common Fate", "desc": "같은 방향으로 움직이면 한 무리로 본다. 정지 화면에서도 방향만으로 묶인다."},
+        {"id": 122, "ko": "단순화", "en": "Simplification", "desc": "복잡한 형태를 가장 단순한 꼴로 읽으려 한다. 군더더기를 덜어낼 근거."},
+        {"id": 123, "ko": "재단 구도", "en": "Cropping", "desc": "일부러 잘라낸다. 잘린 자리가 화면 밖을 상상하게 만든다."},
+        {"id": 124, "ko": "꽉 찬 구도", "en": "Full Bleed", "desc": "이미지가 재단선까지 나간다. 여백이 없어 몰입이 강해진다."},
+        {"id": 125, "ko": "소밀 대비", "en": "Density Contrast", "desc": "빽빽한 곳과 성긴 곳을 나눈다. 밀도 차이가 곧 강약이 된다."},
+        {"id": 126, "ko": "군집 구성", "en": "Grouping", "desc": "요소를 의미 단위로 묶는다. 개수를 줄이지 않고도 화면이 정리된다."}
+      ]
+    },
+    {
+      "name": "지면 읽기 패턴",
+      "name_en": "Reading Patterns",
+      "slug": "reading-patterns",
+      "items": [
+        {"id": 127, "ko": "F자 훑기", "en": "F-Pattern", "desc": "위 두 줄을 가로로 읽고 왼쪽을 세로로 훑는다. 글이 많은 화면의 실제 읽기 방식."},
+        {"id": 128, "ko": "Z자 훑기", "en": "Z-Pattern", "desc": "좌상→우상→좌하→우하로 훑는다. 정보가 적은 지면과 광고에 맞는다."},
+        {"id": 129, "ko": "구텐베르크 도식", "en": "Gutenberg Diagram", "desc": "왼쪽 위에서 오른쪽 아래로 흐른다. 오른쪽 아래가 마지막 시선이 닿는 자리."},
+        {"id": 130, "ko": "레이어 케이크", "en": "Layer Cake", "desc": "제목과 본문이 층층이 반복된다. 제목만 훑어도 내용이 잡히는 구조."},
+        {"id": 131, "ko": "얼룩 훑기", "en": "Spotted Pattern", "desc": "특정 단어나 숫자만 찍어 읽는다. 검색하듯 보는 화면에서 나타난다."}
+      ]
+    }
+  ]
+}

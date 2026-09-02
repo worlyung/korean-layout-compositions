@@ -1,0 +1,43 @@
+{
+  "category": "영상 화면",
+  "category_en": "Film Frame",
+  "slug": "06-film-frame",
+  "note": "카메라가 인물과 공간을 어떻게 잡는가. 콘티와 촬영 계획에 쓰는 화면 어휘.",
+  "subcategories": [
+    {
+      "name": "인물 수와 무리",
+      "name_en": "Number of Subjects",
+      "slug": "subject-count",
+      "items": [
+        {"id": 301, "ko": "단독 화면", "en": "Single Shot", "desc": "한 사람만 담는다. 감정과 표정이 온전히 화면을 차지한다."},
+        {"id": 302, "ko": "2인 화면", "en": "Two Shot", "desc": "두 사람을 한 화면에 담는다. 둘 사이의 거리가 곧 관계를 말한다."},
+        {"id": 303, "ko": "3인 화면", "en": "Three Shot", "desc": "세 사람을 담는다. 삼각으로 앉히면 안정되고 한 명을 떼면 긴장이 생긴다."},
+        {"id": 304, "ko": "군상 화면", "en": "Group Shot", "desc": "여럿을 함께 담는다. 개인보다 무리의 성격과 분위기가 읽힌다."}
+      ]
+    },
+    {
+      "name": "시점과 커버리지",
+      "name_en": "Viewpoint & Coverage",
+      "slug": "viewpoint-coverage",
+      "items": [
+        {"id": 305, "ko": "어깨 너머", "en": "Over the Shoulder", "desc": "한 사람 어깨 뒤에서 상대를 본다. 대화 장면의 기본이자 시점을 정하는 장치."},
+        {"id": 306, "ko": "주관 시점", "en": "Point of View", "desc": "인물이 보는 것을 관객이 그대로 본다. 몰입이 강해지고 감정이 옮겨 온다."},
+        {"id": 307, "ko": "객관 시점", "en": "Objective View", "desc": "누구의 눈도 아닌 자리에서 본다. 관객이 관찰자로 남는다."},
+        {"id": 308, "ko": "깨끗한 단독", "en": "Clean Single", "desc": "화면에 그 사람만 있다. 다른 인물의 조각도 걸리지 않는다."},
+        {"id": 309, "ko": "지저분한 단독", "en": "Dirty Single", "desc": "가장자리에 다른 인물의 일부가 걸린다. 관계 속에 놓인 인물이 된다."}
+      ]
+    },
+    {
+      "name": "장면 배치와 깊이",
+      "name_en": "Staging & Depth",
+      "slug": "staging-depth",
+      "items": [
+        {"id": 310, "ko": "깊이 배치", "en": "Deep Staging", "desc": "인물을 앞뒤로 세운다. 화면 안에 층이 생기고 관계가 거리로 표현된다."},
+        {"id": 311, "ko": "평면 배치", "en": "Flat Staging", "desc": "인물을 좌우로 나란히 세운다. 그래픽처럼 정돈되고 연극 무대에 가깝다."},
+        {"id": 312, "ko": "삼각 배치", "en": "Triangular Staging", "desc": "셋을 삼각으로 세운다. 어느 각도에서 찍어도 셋이 다 보인다."},
+        {"id": 313, "ko": "횡적 배치", "en": "Lateral Staging", "desc": "인물이 화면을 가로질러 움직인다. 진행과 이동이 읽힌다."},
+        {"id": 314, "ko": "다층 전경 배치", "en": "Layered Foreground", "desc": "앞쪽에 여러 겹을 두고 그 사이로 인물을 본다. 엿보는 듯한 긴장이 생긴다."}
+      ]
+    }
+  ]
+}
