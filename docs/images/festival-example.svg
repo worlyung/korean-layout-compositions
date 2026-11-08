@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 630" role="img" aria-labelledby="title">
+  <title id="title">강변 예술마당 포스터 배치 예시</title>
+  <rect width="480" height="630" fill="#faf8f4"/>
+  <path d="M40 35h400" stroke="#a8352b" stroke-width="4"/>
+  <g font-family="sans-serif" fill="#201e1c">
+    <text x="40" y="75" font-size="18">가상 지역축제</text>
+    <text x="40" y="148" font-size="62" font-weight="700">강변</text>
+    <text x="40" y="217" font-size="62" font-weight="700">예술마당</text>
+    <rect x="40" y="240" width="400" height="205" fill="#dfdfd0"/>
+    <circle cx="345" cy="304" r="31" fill="#a8352b"/>
+    <path d="M40 390q140-120 270 8 62 54 130-19v66H40z" fill="#505f4b"/>
+    <text x="64" y="420" fill="#fffdfa" font-size="16">대표 이미지 영역</text>
+    <text x="40" y="495" font-size="28" font-weight="700">10월 17일 토요일 14:00</text>
+    <text x="40" y="532" font-size="24">강변문화공원 잔디마당</text>
+    <path d="M40 558h400" stroke="#b9afa4"/>
+    <text x="40" y="595" font-size="17">주최 로고</text>
+    <text x="160" y="595" font-size="17">후원 로고</text>
+  </g>
+</svg>

@@ -3,15 +3,11 @@
 import json, os, sys, csv, glob
 from urllib.parse import quote
 from PIL import Image
+from build_all import CATEGORIES
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(ROOT, "data")
 THUMB_W = 340
-
-CATEGORIES = [
-    "01-composition-logic", "02-visual-principles", "03-editorial-advertising",
-    "04-type-grid", "06-film-frame", "07-korean-tradition", "08-presentation",
-]
 
 def rel(p):
     """저장소 루트 기준 상대경로를 URL 인코딩 (한글 파일명 대응)"""
@@ -29,7 +25,6 @@ def main():
 
     for slug in CATEGORIES:
         path = os.path.join(DATA, slug + ".json")
-        if not os.path.exists(path): continue
         cat = json.load(open(path, encoding="utf-8"))
         n_items = sum(len(s["items"]) for s in cat["subcategories"])
         cats.append((cat, n_items))
@@ -39,6 +34,8 @@ def main():
                  f"**{n_items}종** · [← 전체 목차](README.md)", ""]
 
         for sub in cat["subcategories"]:
+            if sub["slug"] == "hangul-typesetting":
+                lines += ['<a id="hangul-typesetting"></a>', ""]
             lines += [f"## {sub['name']} · {sub['name_en']}", ""]
             if sub.get("note"): lines += [f"> {sub['note']}", ""]
             items = sub["items"]
@@ -50,14 +47,13 @@ def main():
                     png = f"images/{cat['slug']}/{it['id']:03d}-{it['ko']}.png"
                     jpg = f"thumbnails/{cat['slug']}/{it['id']:03d}-{it['ko']}.jpg"
                     src, dst = os.path.join(ROOT, png), os.path.join(ROOT, jpg)
-                    if os.path.exists(src):
-                        make_thumb(src, dst)
-                        rows.append({
-                            "id": it["id"], "name_ko": it["ko"], "name_en": it["en"],
-                            "category": cat["category"], "category_slug": cat["slug"],
-                            "subcategory": sub["name"], "image": png, "thumbnail": jpg,
-                            "desc": it["desc"],
-                        })
+                    make_thumb(src, dst)
+                    rows.append({
+                        "id": it["id"], "name_ko": it["ko"], "name_en": it["en"],
+                        "category": cat["category"], "category_slug": cat["slug"],
+                        "subcategory": sub["name"], "image": png, "thumbnail": jpg,
+                        "desc": it["desc"],
+                    })
                     cells.append(f'<a href="../{rel(png)}"><img src="../{rel(jpg)}" width="200" alt="{it["ko"]}"></a>')
                     caps.append(f'**{it["id"]:03d}**<br>{it["ko"]}')
                 while len(cells) < 4: cells.append("&nbsp;"); caps.append("&nbsp;")
@@ -76,13 +72,16 @@ def main():
         idx += [f"{cat['note']}", ""]
         subs = " · ".join(f"{s['name']}({len(s['items'])})" for s in cat["subcategories"])
         idx += [f"<sub>{subs}</sub>", ""]
-    idx += ["---", "", "[← 저장소 홈](../README.md)"]
+    idx += ["---", "", "[축제 포스터와 공공 제안서 예시](examples.md) · [← 저장소 홈](../README.md)"]
     open(os.path.join(ROOT, "docs", "README.md"), "w", encoding="utf-8").write("\n".join(idx))
 
     # catalog.csv
     rows.sort(key=lambda r: r["id"])
+    with open(os.path.join(ROOT, "catalog.json"), "w", encoding="utf-8") as f:
+        json.dump(rows, f, ensure_ascii=False, indent=2)
+        f.write("\n")
     with open(os.path.join(ROOT, "catalog.csv"), "w", encoding="utf-8-sig", newline="") as f:
-        w = csv.DictWriter(f, fieldnames=list(rows[0].keys()))
+        w = csv.DictWriter(f, fieldnames=list(rows[0].keys()), lineterminator="\n")
         w.writeheader(); w.writerows(rows)
     print(f"\n docs/README.md · catalog.csv ({len(rows)}행) · 썸네일 {len(rows)}장")
 

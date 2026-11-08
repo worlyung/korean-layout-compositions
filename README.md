@@ -2,13 +2,15 @@
 
 # 한국형 레이아웃 구성 도감
 
-**277종의 구성 원리를, 카드 한 장에 하나씩.**
+**278종의 구성 원리를, 카드 한 장에 하나씩.**
 
 구도 · 시각 원칙 · 출판 · 글자와 격자 · 영상 화면 · **한국 전통** · 발표 자료
 
 <img src="docs/images/hero.jpg" width="820" alt="도감 카드 미리보기">
 
 [**📖 전체 목차 보기**](docs/README.md) · [🔍 검색용 목록 (catalog.csv)](catalog.csv) · [🇰🇷 한국 전통 구도](docs/07-korean-tradition.md)
+
+[웹에서 카드 검색](https://worlyung.github.io/korean-layout-compositions/) · [축제 포스터와 공공 제안서 예시](docs/examples.md)
 
 </div>
 
@@ -57,11 +59,11 @@
 | [**01 구도 논리**](docs/01-composition-logic.md) | 86 | 삼분법·황금비부터 투시·심도까지. 화면 안에서 요소를 **어디에 놓을 것인가** |
 | [**02 시각 원칙**](docs/02-visual-principles.md) | 45 | 균형·위계·대비·리듬·게슈탈트·읽기 패턴. 요소를 **어떻게 묶고 강조할 것인가** |
 | [**03 출판 · 광고**](docs/03-editorial-advertising.md) | 36 | 단·펼침·재단, 표현형 판면, 모듈과 곁단, 출판 기능 지면 |
-| [**04 글자 · 격자**](docs/04-type-grid.md) | 54 | 조직 체계·정렬·격자 + **한글 조판 10종** |
+| [**04 글자 · 격자**](docs/04-type-grid.md) | 55 | 조직 체계·정렬·격자 + **한글 조판 11종** |
 | [**06 영상 화면**](docs/06-film-frame.md) | 14 | 인물 수·시점·장면 배치. 콘티와 촬영 계획용 |
 | [**07 한국 전통 구도**](docs/07-korean-tradition.md) | 26 | **오리지널.** 역원근·책가도·문자도·병풍·단청·십장생 |
 | [**08 발표 자료**](docs/08-presentation.md) | 16 | 제안서와 발표 덱의 지면 유형 |
-| | **277** | |
+| | **278** | |
 
 > 원본 도감에 있던 웹 UI 분류(79종)는 이 도감의 목적과 거리가 있어 제외했습니다.
 
@@ -88,14 +90,15 @@
 
 전통 소재를 다룰 때 이 분류를 모르고 시작하면 **중국풍·일본풍으로 새거나 서양 원근으로 흘러갑니다.**
 
-### ✍️ 한글 조판 10종
+### ✍️ 한글 조판 11종
 
 원본은 한자 조판 기준이었습니다. 한글은 **자소를 모아 쓰는 글자**라 문제가 다릅니다.
 
 <img src="docs/images/hangul.jpg" width="820" alt="한글 조판">
 
 - **받침의 시각 무게** — 받침 있는 글자와 없는 글자가 섞이면 글줄 아랫선이 흔들립니다
-- **어절 단위 줄바꿈** — 글자 단위로 끊으면 뜻이 무너집니다. 한글 조판의 첫 규칙
+- **어절 단위 줄바꿈** — 같은 문장을 어절 단위와 글자 단위로 나눠 읽는 흐름과 줄 길이를 비교합니다
+- **줄바꿈 금칙** — 줄 끝의 여는 괄호와 줄 첫머리의 닫는 괄호를 피합니다. [W3C 한글 조판 요구사항 초안](https://www.w3.org/TR/klreq/#line-breaking-and-hyphenation)
 - **세로쓰기 속 숫자** — 두 자리 숫자는 눕히지 않고 나란히 세웁니다. 현판과 족자의 관습
 - 네모틀과 탈네모틀 · 글줄 사이 · 자간과 장평 · 한글 속 로마자 · 덧말 달기 · 문장부호 자리 · 제목의 띄어쓰기
 
@@ -123,7 +126,7 @@
 
 ### 2. 검색해서 찾기
 
-`catalog.csv`에 277행이 들어 있습니다. 이름·분류·설명이 모두 들어 있어 전문 검색이 됩니다.
+`catalog.csv`와 [`catalog.json`](catalog.json)에 278종의 이름·분류·설명이 들어 있습니다.
 
 ```bash
 grep -i "여백\|대제목\|역원근" catalog.csv
@@ -135,6 +138,18 @@ grep -i "여백\|대제목\|역원근" catalog.csv
 | `category` `subcategory` | 분류 |
 | `image` `thumbnail` | 파일 경로 |
 | `desc` | 설명 전문 |
+
+<a id="web-search"></a>
+
+### 브라우저에서 카드 검색
+
+[공개 검색 페이지](https://worlyung.github.io/korean-layout-compositions/)를 열면 바로 검색할 수 있습니다. 맥에서 직접 열려면 저장소 폴더에서 아래 명령을 실행한 뒤 [로컬 검색 화면](http://127.0.0.1:8000/)을 엽니다.
+
+```bash
+python3 -m http.server 8000 --bind 127.0.0.1
+```
+
+카드 번호, 이름, 설명, 분류로 찾을 수 있습니다. `축제`와 `공공 제안서`는 실전 예시에 사용한 카드도 보여줍니다. 카드에서 **번호와 설명 복사**를 누르면 프롬프트에 바로 붙여넣을 수 있습니다.
 
 ### 3. AI 생성 프롬프트에 넣기
 
@@ -160,15 +175,19 @@ data/
   diagrams-01.json             도해 스펙
 build/
   render_card.py               Pillow 렌더러
-  build_all.py                 카드 277장 생성
-  build_docs.py                썸네일 · 목차 · catalog.csv 생성
+  build_all.py                 카드 생성
+  build_docs.py                썸네일 · 목차 · CSV 및 JSON 목록 생성
+  verify_collection.py         카드 · 목록 · 문서 링크 검사
 ```
 
 ```bash
 pip install pillow
-python build/build_all.py     # 277장 재생성 (약 1분)
+python build/build_all.py     # 278장 재생성
 python build/build_docs.py    # 목차와 썸네일 갱신
+python build/verify_collection.py
 ```
+
+맥에서는 Apple SD Gothic Neo, 윈도우에서는 맑은 고딕 또는 나눔고딕을 사용합니다. 리눅스에서는 Noto Sans CJK를 사용할 수 있습니다. 다른 한글 글꼴을 쓰려면 `LAYOUT_FONT`에 글꼴 파일 경로를, 필요하면 `LAYOUT_FONT_BOLD`에 굵은 글꼴 경로를 지정합니다. 기존 카드와 다시 만든 카드의 글자 모양은 운영체제와 글꼴에 따라 달라질 수 있습니다.
 
 ### 도해 스펙
 
@@ -209,8 +228,8 @@ python build/build_docs.py    # 목차와 썸네일 갱신
 <div align="center">
 <sub>
 
-**한국형 레이아웃 구성 도감** · 277종
-[목차](docs/README.md) · [한국 전통 구도](docs/07-korean-tradition.md) · [한글 조판](docs/04-type-grid.md#한글-조판--hangul-typesetting)
+**한국형 레이아웃 구성 도감** · 278종
+[목차](docs/README.md) · [한국 전통 구도](docs/07-korean-tradition.md) · [한글 조판](docs/04-type-grid.md#hangul-typesetting)
 
 </sub>
 </div>

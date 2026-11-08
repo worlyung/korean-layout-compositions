@@ -3,6 +3,7 @@
 의존: Pillow 만. 다이어그램은 JSON 스펙을 해석해 그린다.
 """
 import json, math, os, sys
+from functools import lru_cache
 from PIL import Image, ImageDraw, ImageFont
 
 W, H = 1086, 1448
@@ -13,19 +14,26 @@ LINE    = (206, 199, 189)   # 안내선
 ACCENT  = (176, 58, 46)     # 주칠 붉은색
 FILL    = (214, 206, 194)   # 도형 채움
 
-FONTS = [
-    r"C:\Windows\Fonts\malgunbd.ttf",
-    r"C:\Windows\Fonts\malgun.ttf",
-    r"C:\Windows\Fonts\NanumGothicExtraBold.ttf",
-    r"C:\Windows\Fonts\NanumGothic.ttf",
-]
+@lru_cache(maxsize=None)
 def font(sz, bold=False):
-    cands = FONTS if bold else FONTS[1:] + FONTS[:1]
-    for p in cands:
-        if os.path.exists(p):
-            try: return ImageFont.truetype(p, sz)
-            except Exception: pass
-    return ImageFont.load_default()
+    regular = os.environ.get("LAYOUT_FONT")
+    bold_path = os.environ.get("LAYOUT_FONT_BOLD")
+    custom = (bold_path or regular) if bold else regular
+    windows = os.path.join(os.environ.get("WINDIR", r"C:\Windows"), "Fonts")
+    candidates = [(custom, 0)] if custom else [
+        (os.path.join(windows, "malgunbd.ttf" if bold else "malgun.ttf"), 0),
+        (os.path.join(windows, "NanumGothicExtraBold.ttf" if bold else "NanumGothic.ttf"), 0),
+        ("/System/Library/Fonts/AppleSDGothicNeo.ttc", 6 if bold else 0),
+        ("NotoSansCJK-Bold.ttc" if bold else "NotoSansCJK-Regular.ttc", 1),
+    ]
+    for path, index in candidates:
+        try:
+            face = ImageFont.truetype(path, sz, index=index)
+        except OSError:
+            continue
+        if bytes(face.getmask("한")) != bytes(face.getmask("글")):
+            return face
+    raise SystemExit("한글 글꼴을 불러올 수 없습니다. LAYOUT_FONT와 LAYOUT_FONT_BOLD를 확인하세요.")
 
 # ── 다이어그램 영역 (정사각) ─────────────────────────────
 DX, DY, DW = 153, 356, 780         # left, top, size

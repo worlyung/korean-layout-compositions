@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>한국형 레이아웃 구성 도감</title>
+  <link rel="stylesheet" href="web/catalog.css">
+  <script src="web/catalog.js" defer></script>
+</head>
+<body>
+  <main>
+    <header>
+      <p class="eyebrow">KOREAN LAYOUT COMPOSITIONS</p>
+      <h1>한국형 레이아웃 구성 도감</h1>
+      <p>카드 한 장에 원리 하나. 지면에 맞는 구성 원리를 골라보세요.</p>
+    </header>
+    <form role="search">
+      <label>카드 검색 <input id="query" type="search" placeholder="여백, 역원근, 축제, 095"></label>
+      <label>분류 <select id="category"><option value="">전체 분류</option></select></label>
+    </form>
+    <p id="status" role="status">카드 목록을 불러오는 중입니다.</p>
+    <ul id="cards" class="cards"></ul>
+    <noscript>카드 검색에는 자바스크립트가 필요합니다. <a href="catalog.csv">CSV 목록 열기</a></noscript>
+    <footer><a href="https://github.com/worlyung/korean-layout-compositions">저장소와 사용법</a></footer>
+  </main>
+</body>
+</html>

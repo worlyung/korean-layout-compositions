@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-labelledby="title">
+  <title id="title">동네 예술교실 사업 요약 지면 예시</title>
+  <rect width="800" height="450" fill="#faf8f4"/>
+  <path d="M42 38h716" stroke="#a8352b" stroke-width="4"/>
+  <g font-family="sans-serif" fill="#201e1c">
+    <text x="42" y="75" font-size="20" fill="#922c24">동네 예술교실 · 사업 목표</text>
+    <text x="42" y="130" font-size="38" font-weight="700">동네에서 만나는 주말 예술교실</text>
+    <rect x="42" y="164" width="435" height="238" fill="#eeebe1"/>
+    <rect x="493" y="164" width="265" height="238" fill="#e6ddd0"/>
+    <text x="66" y="208" font-size="22" font-weight="700">프로그램과 일정</text>
+    <text x="66" y="249" font-size="20">주말 창작 워크숍 · 주민 결과 전시</text>
+    <path d="M80 294h348" stroke="#922c24" stroke-width="2"/>
+    <circle cx="86" cy="294" r="6" fill="#922c24"/>
+    <circle cx="242" cy="294" r="6" fill="#922c24"/>
+    <circle cx="404" cy="294" r="6" fill="#922c24"/>
+    <text x="66" y="337" font-size="19">5월 모집</text>
+    <text x="202" y="337" font-size="19">6~8월 운영</text>
+    <text x="366" y="337" font-size="19">9월 발표</text>
+    <text x="517" y="208" font-size="22" font-weight="700">예산과 성과지표</text>
+    <text x="517" y="268" font-size="35" font-weight="700">3,000만 원</text>
+    <text x="517" y="322" font-size="20">운영 12회 · 참여 150명</text>
+    <text x="42" y="431" font-size="15">배치 설명을 위한 가상의 사업과 수치</text>
+  </g>
+</svg>

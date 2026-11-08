@@ -23,7 +23,11 @@ def load_specs():
     """diagrams-*.json 을 전부 합친다 (id → spec)"""
     spec = {}
     for p in sorted(glob.glob(os.path.join(DATA, "diagrams-*.json"))):
-        spec.update(json.load(open(p, encoding="utf-8")))
+        entries = json.load(open(p, encoding="utf-8"))
+        duplicates = spec.keys() & entries.keys()
+        if duplicates:
+            raise SystemExit(f"중복 도해 번호: {', '.join(sorted(duplicates))}")
+        spec.update(entries)
     return spec
 
 def main():
@@ -31,8 +35,6 @@ def main():
     total, missing = 0, []
     for slug in CATEGORIES:
         path = os.path.join(DATA, slug + ".json")
-        if not os.path.exists(path):
-            print(f"  ! {slug}.json 없음"); continue
         cat = json.load(open(path, encoding="utf-8"))
         n = 0
         for sub in cat["subcategories"]:
@@ -51,6 +53,7 @@ def main():
         print("도해 스펙 없음:")
         for slug, i, ko in missing:
             print(f"  {slug} {i:03d} {ko}")
+        raise SystemExit(1)
 
 if __name__ == "__main__":
     main()

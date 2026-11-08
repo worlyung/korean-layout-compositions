@@ -212,7 +212,7 @@
 211,해체 격자,Deconstructed Grid,글자 · 격자,04-type-grid,격자 체계,images/04-type-grid/211-해체 격자.png,thumbnails/04-type-grid/211-해체 격자.jpg,격자를 세운 뒤 의도적으로 무너뜨린다. 규칙을 알아야 어길 수 있다.
 212,네모틀과 탈네모틀,Square vs Non-Square Frame,글자 · 격자,04-type-grid,한글 조판,images/04-type-grid/212-네모틀과 탈네모틀.png,thumbnails/04-type-grid/212-네모틀과 탈네모틀.jpg,"한글은 자소를 모아 한 글자를 이룬다. 모든 글자를 같은 네모에 맞추면 정연하고, 자소 구조를 살리면 리듬이 생긴다."
 213,받침의 시각 무게,Weight of the Final Consonant,글자 · 격자,04-type-grid,한글 조판,images/04-type-grid/213-받침의 시각 무게.png,thumbnails/04-type-grid/213-받침의 시각 무게.jpg,받침이 있는 글자는 아래가 무겁다. 받침 없는 글자와 섞이면 글줄 아랫선이 흔들려 보인다.
-214,어절 단위 줄바꿈,Word-Unit Line Breaking,글자 · 격자,04-type-grid,한글 조판,images/04-type-grid/214-어절 단위 줄바꿈.png,thumbnails/04-type-grid/214-어절 단위 줄바꿈.jpg,한글은 어절 사이에서 끊어야 읽힌다. 글자 단위로 끊으면 뜻이 무너진다. 한글 조판의 첫 규칙.
+214,어절 단위 줄바꿈,Word-Unit Line Breaking,글자 · 격자,04-type-grid,한글 조판,images/04-type-grid/214-어절 단위 줄바꿈.png,thumbnails/04-type-grid/214-어절 단위 줄바꿈.jpg,"어절 단위는 낱말 덩어리를 살리고, 글자 단위는 좁은 단에서 줄 길이를 고르게 맞추기 쉽다."
 215,글줄 사이,Line Spacing for Hangul,글자 · 격자,04-type-grid,한글 조판,images/04-type-grid/215-글줄 사이.png,thumbnails/04-type-grid/215-글줄 사이.jpg,한글은 글자가 네모를 꽉 채워 로마자보다 빽빽하다. 글줄 사이를 넉넉히 줘야 숨이 트인다.
 216,자간과 장평,Letter Spacing & Width,글자 · 격자,04-type-grid,한글 조판,images/04-type-grid/216-자간과 장평.png,thumbnails/04-type-grid/216-자간과 장평.jpg,자간을 좁히면 단단해지고 넓히면 격식이 생긴다. 장평은 함부로 건드리면 글자꼴이 무너진다.
 217,한글 속 로마자·숫자,Latin & Numerals in Hangul,글자 · 격자,04-type-grid,한글 조판,images/04-type-grid/217-한글 속 로마자·숫자.png,thumbnails/04-type-grid/217-한글 속 로마자·숫자.jpg,섞여 들어온 로마자는 한글보다 작아 보인다. 크기와 기준선을 따로 맞춰야 한 줄로 읽힌다.
@@ -276,3 +276,4 @@
 354,모란 화훼 구도,Peony Arrangement,한국 전통 구도,07-korean-tradition,상징과 배열,images/07-korean-tradition/354-모란 화훼 구도.png,thumbnails/07-korean-tradition/354-모란 화훼 구도.jpg,꽃송이를 삼각으로 배치하고 잎으로 사이를 메운다. 좌우를 일부러 어긋나게 해야 답답하지 않다.
 355,산수 삼단 구도,Three-Tier Landscape,한국 전통 구도,07-korean-tradition,상징과 배열,images/07-korean-tradition/355-산수 삼단 구도.png,thumbnails/07-korean-tradition/355-산수 삼단 구도.jpg,"앞에 바위와 나무, 가운데 물과 길, 뒤에 산. 세 층이 겹쳐 깊이를 만든다."
 356,일수이석 구도,"One Tree, Two Rocks",한국 전통 구도,07-korean-tradition,상징과 배열,images/07-korean-tradition/356-일수이석 구도.png,thumbnails/07-korean-tradition/356-일수이석 구도.jpg,나무 하나에 돌 둘을 짝짓는다. 홀수와 짝수를 엇갈려 놓아 정형을 피한다.
+357,줄바꿈 금칙,Line Break Restrictions,글자 · 격자,04-type-grid,한글 조판,images/04-type-grid/357-줄바꿈 금칙.png,thumbnails/04-type-grid/357-줄바꿈 금칙.jpg,"여는 괄호는 줄 끝을 피하고, 닫는 괄호와 마침표는 줄 첫머리를 피한다. 줄을 나누는 위치를 조정한다."
