@@ -2,7 +2,7 @@
 
 > 지면을 어떻게 나누고 무엇을 앞세울 것인가. 포스터·리플렛·도록의 판면 짜기.
 
-**36종** · [← 전체 목차](README.md)
+**37종** · [← 전체 목차](README.md)
 
 ## 단 · 펼침 · 재단 · Columns, Spreads & Bleed
 
@@ -51,3 +51,7 @@
 | <a href="../images/03-editorial-advertising/164-%EC%B0%A8%EB%A1%80%20%ED%8C%90%EB%A9%B4.png"><img src="../thumbnails/03-editorial-advertising/164-%EC%B0%A8%EB%A1%80%20%ED%8C%90%EB%A9%B4.jpg" width="200" alt="차례 판면"></a> | <a href="../images/03-editorial-advertising/165-%EC%83%89%EC%9D%B8%20%ED%8C%90%EB%A9%B4.png"><img src="../thumbnails/03-editorial-advertising/165-%EC%83%89%EC%9D%B8%20%ED%8C%90%EB%A9%B4.jpg" width="200" alt="색인 판면"></a> | <a href="../images/03-editorial-advertising/166-%EB%8F%84%EB%A1%9D%20%ED%8C%90%EB%A9%B4.png"><img src="../thumbnails/03-editorial-advertising/166-%EB%8F%84%EB%A1%9D%20%ED%8C%90%EB%A9%B4.jpg" width="200" alt="도록 판면"></a> | <a href="../images/03-editorial-advertising/167-%EC%9D%B8%EC%9A%A9%20%EC%A3%BC%EB%8F%84%20%ED%8C%90%EB%A9%B4.png"><img src="../thumbnails/03-editorial-advertising/167-%EC%9D%B8%EC%9A%A9%20%EC%A3%BC%EB%8F%84%20%ED%8C%90%EB%A9%B4.jpg" width="200" alt="인용 주도 판면"></a> |
 | :---: | :---: | :---: | :---: |
 | **164**<br>차례 판면 | **165**<br>색인 판면 | **166**<br>도록 판면 | **167**<br>인용 주도 판면 |
+
+| <a href="../images/03-editorial-advertising/358-%ED%95%B5%EC%8B%AC%20%EC%A0%95%EB%B3%B4%20%EB%AC%B6%EC%9D%8C.png"><img src="../thumbnails/03-editorial-advertising/358-%ED%95%B5%EC%8B%AC%20%EC%A0%95%EB%B3%B4%20%EB%AC%B6%EC%9D%8C.jpg" width="200" alt="핵심 정보 묶음"></a> | &nbsp; | &nbsp; | &nbsp; |
+| :---: | :---: | :---: | :---: |
+| **358**<br>핵심 정보 묶음 | &nbsp; | &nbsp; | &nbsp; |

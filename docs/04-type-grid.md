@@ -2,7 +2,7 @@
 
 > 글자를 어떻게 세우고 지면을 어떤 눈금으로 나눌 것인가. 마지막 절은 한글 조판 고유의 문제를 다룬다.
 
-**55종** · [← 전체 목차](README.md)
+**57종** · [← 전체 목차](README.md)
 
 ## 글자 조직 체계 · Typographic Systems
 
@@ -54,9 +54,9 @@
 | :---: | :---: | :---: | :---: |
 | **206**<br>하위 격자 | **207**<br>고정 격자 | **208**<br>유동 격자 | **209**<br>반응 격자 |
 
-| <a href="../images/04-type-grid/210-%EA%B2%A9%EC%9E%90%20%EC%9D%B4%ED%83%88.png"><img src="../thumbnails/04-type-grid/210-%EA%B2%A9%EC%9E%90%20%EC%9D%B4%ED%83%88.jpg" width="200" alt="격자 이탈"></a> | <a href="../images/04-type-grid/211-%ED%95%B4%EC%B2%B4%20%EA%B2%A9%EC%9E%90.png"><img src="../thumbnails/04-type-grid/211-%ED%95%B4%EC%B2%B4%20%EA%B2%A9%EC%9E%90.jpg" width="200" alt="해체 격자"></a> | &nbsp; | &nbsp; |
+| <a href="../images/04-type-grid/360-%EB%B9%84%EC%9C%A8%20%EC%A0%84%ED%99%98%20%EA%B5%AC%EB%8F%84.png"><img src="../thumbnails/04-type-grid/360-%EB%B9%84%EC%9C%A8%20%EC%A0%84%ED%99%98%20%EA%B5%AC%EB%8F%84.jpg" width="200" alt="비율 전환 구도"></a> | <a href="../images/04-type-grid/210-%EA%B2%A9%EC%9E%90%20%EC%9D%B4%ED%83%88.png"><img src="../thumbnails/04-type-grid/210-%EA%B2%A9%EC%9E%90%20%EC%9D%B4%ED%83%88.jpg" width="200" alt="격자 이탈"></a> | <a href="../images/04-type-grid/211-%ED%95%B4%EC%B2%B4%20%EA%B2%A9%EC%9E%90.png"><img src="../thumbnails/04-type-grid/211-%ED%95%B4%EC%B2%B4%20%EA%B2%A9%EC%9E%90.jpg" width="200" alt="해체 격자"></a> | &nbsp; |
 | :---: | :---: | :---: | :---: |
-| **210**<br>격자 이탈 | **211**<br>해체 격자 | &nbsp; | &nbsp; |
+| **360**<br>비율 전환 구도 | **210**<br>격자 이탈 | **211**<br>해체 격자 | &nbsp; |
 
 <a id="hangul-typesetting"></a>
 
@@ -72,6 +72,6 @@
 | :---: | :---: | :---: | :---: |
 | **216**<br>자간과 장평 | **217**<br>한글 속 로마자·숫자 | **218**<br>세로쓰기 속 숫자 | **219**<br>덧말 달기 |
 
-| <a href="../images/04-type-grid/220-%EB%AC%B8%EC%9E%A5%EB%B6%80%ED%98%B8%20%EC%9E%90%EB%A6%AC.png"><img src="../thumbnails/04-type-grid/220-%EB%AC%B8%EC%9E%A5%EB%B6%80%ED%98%B8%20%EC%9E%90%EB%A6%AC.jpg" width="200" alt="문장부호 자리"></a> | <a href="../images/04-type-grid/221-%EC%A0%9C%EB%AA%A9%EC%9D%98%20%EB%9D%84%EC%96%B4%EC%93%B0%EA%B8%B0.png"><img src="../thumbnails/04-type-grid/221-%EC%A0%9C%EB%AA%A9%EC%9D%98%20%EB%9D%84%EC%96%B4%EC%93%B0%EA%B8%B0.jpg" width="200" alt="제목의 띄어쓰기"></a> | <a href="../images/04-type-grid/357-%EC%A4%84%EB%B0%94%EA%BF%88%20%EA%B8%88%EC%B9%99.png"><img src="../thumbnails/04-type-grid/357-%EC%A4%84%EB%B0%94%EA%BF%88%20%EA%B8%88%EC%B9%99.jpg" width="200" alt="줄바꿈 금칙"></a> | &nbsp; |
+| <a href="../images/04-type-grid/220-%EB%AC%B8%EC%9E%A5%EB%B6%80%ED%98%B8%20%EC%9E%90%EB%A6%AC.png"><img src="../thumbnails/04-type-grid/220-%EB%AC%B8%EC%9E%A5%EB%B6%80%ED%98%B8%20%EC%9E%90%EB%A6%AC.jpg" width="200" alt="문장부호 자리"></a> | <a href="../images/04-type-grid/221-%EC%A0%9C%EB%AA%A9%EC%9D%98%20%EB%9D%84%EC%96%B4%EC%93%B0%EA%B8%B0.png"><img src="../thumbnails/04-type-grid/221-%EC%A0%9C%EB%AA%A9%EC%9D%98%20%EB%9D%84%EC%96%B4%EC%93%B0%EA%B8%B0.jpg" width="200" alt="제목의 띄어쓰기"></a> | <a href="../images/04-type-grid/357-%EC%A4%84%EB%B0%94%EA%BF%88%20%EA%B8%88%EC%B9%99.png"><img src="../thumbnails/04-type-grid/357-%EC%A4%84%EB%B0%94%EA%BF%88%20%EA%B8%88%EC%B9%99.jpg" width="200" alt="줄바꿈 금칙"></a> | <a href="../images/04-type-grid/359-%EB%8B%A4%EA%B5%AD%EC%96%B4%20%EB%B3%91%EA%B8%B0%20%EC%A1%B0%ED%8C%90.png"><img src="../thumbnails/04-type-grid/359-%EB%8B%A4%EA%B5%AD%EC%96%B4%20%EB%B3%91%EA%B8%B0%20%EC%A1%B0%ED%8C%90.jpg" width="200" alt="다국어 병기 조판"></a> |
 | :---: | :---: | :---: | :---: |
-| **220**<br>문장부호 자리 | **221**<br>제목의 띄어쓰기 | **357**<br>줄바꿈 금칙 | &nbsp; |
+| **220**<br>문장부호 자리 | **221**<br>제목의 띄어쓰기 | **357**<br>줄바꿈 금칙 | **359**<br>다국어 병기 조판 |
